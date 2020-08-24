@@ -1,0 +1,153 @@
+.Container-Page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+.Container-menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #00BFA6;
+  background-image: url('../../assests/cadastro.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.back-home{
+  width: 50px;
+  height: 40px;
+  background-image: url('../../assests/back.png');
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.Container-menu h1{
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+.Container-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:15px;
+   width: 600px;
+   height: 600px;
+   border-radius: 50px;
+   background-color: #F8F2F2;
+   transition: 0.8s;
+}
+.Container-main h1{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 50px;
+}
+.Container-Cadastro-Input{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  
+}
+.Container-Cadastro-Input input{
+  width: 100%;
+  height: 35px;
+  border-radius: 15px;
+  outline: none;
+  margin-bottom: 20px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 18px;
+  
+}
+.Container-Cadastro-Input label{
+  margin-bottom: 5px;
+  font-family: 'Archivo', sans-serif;
+}
+.Container-Cadastro-Preco-QTD{
+  display: flex;
+  width: 70%;
+  
+}
+.Container-Cadastro-Input-preco{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.Container-Cadastro-Input-preco input{
+  width: 90%;
+  height: 35px;
+  border-radius: 15px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.Container-Cadastro-Input-preco label{
+  margin-bottom: 5px;
+  font-family: 'Archivo', sans-serif;
+}
+.Container-Button-Cadastro{
+  width: 50%;
+  height: 45px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45px;
+  margin-top: 30px;
+  transition: 0.8s;
+}
+.Button-Cadastro{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+.Container-Button-Cadastro:hover{
+  background-color:#00BFA6;
+}
+@media(max-width: 1300px){
+  .Container-menu h1{
+    position: absolute;
+    left: 300px;
+  }
+  .Container-main{
+    position: absolute;
+    top: 310px;
+    left:180px;
+  }
+}
+@media(max-width: 1100px){
+  .Container-menu{
+    background-image: none;
+  } 
+}
+@media(max-width: 800px){
+  .Container-menu h1{
+    position: absolute;
+    left: 150px;
+  }
+  .Container-main{
+    position: absolute;
+    top: 310px;
+    left:70px;
+    width: 500px;
+  }
+}
+@media(max-width: 600px){
+  .Container-menu h1{
+    font-size: 25px;
+  }
+  .Container-main{
+    position: absolute;
+    top: 310px;
+    left:70px;
+    width: 400px;
+  }
+}

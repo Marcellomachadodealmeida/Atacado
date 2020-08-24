@@ -1,0 +1,67 @@
+.produtos-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 265px;
+  height: 155px;
+  margin-bottom: 20px;
+  border-radius: 17px;
+  background-color: #F8F2F2; 
+  transition: 0.8s;
+}
+.Podutos-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  font-size: 1rem;
+}
+.Fotter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 3.5rem;
+  margin-top: 0.5rem;
+  border-radius: 17px;
+  background-color:#00BFA6 ;
+}
+.Fotter-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Fotter-input label{
+  margin-right: 5px;
+}
+.Fotter-input input{
+  width: 2.5rem;
+  height: 2rem;
+  border-radius: 5px;
+  outline: none;
+  background-color: #F8F2F2;
+  color: black;
+  border: none;
+  margin-right: 1rem;
+
+}
+.Fotter-Button{
+  margin-left: 1rem;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 8px;
+  background-color: #F8F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Fotter-Button a{
+  width: 100%;
+  margin-left: 10px;
+  font-family: 'Archivo', sans-serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+}

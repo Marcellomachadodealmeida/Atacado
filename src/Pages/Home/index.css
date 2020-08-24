@@ -1,0 +1,237 @@
+.Container-Page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+.Menu-Estoque{
+  width: 100%;
+  height: 300px;
+  background-color: #00BFA6;
+  background-image: url('../../assests/carrinho.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.back-login{
+  width: 50px;
+  height: 40px;
+  background-image: url('../../assests/back.png');
+  position: absolute;
+  top: 30px;
+  left: 550px;
+  transition: 0.8s;
+}
+.Menu-Estoque h1{
+  position: absolute;
+  top: 100px;
+  left: 800px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.8s;
+}
+.go-cadastro{
+  width: 50px;
+  height: 40px;
+  background-image: url('../../assests/go.png');
+  position: absolute;
+  top: 30px;
+  left: 1300px;
+  transition: 0.8s;
+}
+.Container-Home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 800px;
+  height: 100px;
+  left: 580px;
+  top: 190px;
+  transition: 0.8s;
+
+}
+
+.Container-Input-Categoria{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.Container-Input-Categoria label{
+  margin-bottom: 5px;
+  font-family: 'Archivo', sans-serif;
+}
+.Container-Input-Categoria select{
+  width: 90%;
+  height: 40px;
+  border-radius: 8px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  outline: none;
+  border: none;
+
+}
+.Submit-Button{
+  width: 120px;
+  height: 30px;
+  border-radius: 8px;
+  margin-top: 35px;
+  font-family: 'Archivo', sans-serif;
+  outline: none;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+main{
+  margin:40px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  transition: 0.8s;
+}
+
+@media(max-width:1700px){
+  .Container-Home{
+    left: 380px;
+  }
+  .back-login{
+    left: 350px;
+  }
+  .Menu-Estoque h1{
+    left: 600px;
+  }
+  .go-cadastro{
+    left: 1100px;
+  }
+  main{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media(max-width:1500px){
+  .Container-Home{
+    left: 200px;
+    
+  }
+  .back-login{
+    left: 180px;
+  }
+  .Menu-Estoque h1{
+    left: 420px;
+  }
+  .go-cadastro{
+    left: 920px;
+  }
+}
+@media(max-width:1320px){
+  .Container-Home{
+    left: 120px; 
+  }
+  .back-login{
+    left: 100px;
+  }
+  .Menu-Estoque h1{
+    left: 330px;
+  }
+  .go-cadastro{
+    left: 850px;
+  }
+  main{
+    position: absolute;
+    top: 300px;
+    left: 30px
+  }
+  
+}
+@media(max-width:1230px){
+  .Container-Home{
+    left: 60px;
+    width: 650px; 
+  }
+  .back-login{
+    left: 30px;
+  }
+  .Menu-Estoque h1{
+    left: 200px;
+  }
+  .go-cadastro{
+    left: 650px;
+  }
+  main{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+  }
+}
+@media(max-width:1030px){
+  .Menu-Estoque{
+    background-image: none;
+  }
+}
+@media(max-width:720px){
+  .Container-Home{
+    justify-content:center;
+    flex-direction: column;
+    width: 400px;
+    left: 150px;
+    height: 150px;
+    top:  90px
+  }
+  .Menu-Estoque h1{
+    top: 60px;
+    font-size: 25px;
+  }
+  .go-cadastro{
+    left: 485px;
+  }
+  .back-login{
+    left: 120px;
+  }
+  main{
+    grid-template-columns: 1fr;
+    width: 275px;
+    
+    left: 140px;
+  }
+  .Submit-Button{
+    position: absolute;
+    width: 100px;
+    top: 130px;
+    left: 130px;
+  }
+
+}
+@media(max-width:580px){
+  .Container-Home{
+    justify-content:center;
+    flex-direction: column;
+    width: 400px;
+    left: 50px;
+    height: 150px;
+    top:  90px
+  }
+  .Menu-Estoque h1{
+    top: 60px;
+    font-size: 25px;
+    left: 110px;
+  }
+  .go-cadastro{
+    left: 390px;
+  }
+  .back-login{
+    left: 30px;
+  }
+  main{
+    grid-template-columns: 1fr;
+    width: 275px;
+    left: 50px;
+  }
+  .Submit-Button{
+    position: absolute;
+    width: 100px;
+    top: 130px;
+    left: 130px;
+  }
+}
