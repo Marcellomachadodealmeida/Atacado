@@ -1,3 +1,8 @@
+Obs importando : todos os arquivos referentes ao banck-End então dentro da pasta Server
+Os arquivos referente ao FRont-End são os fora da pasta serve
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
