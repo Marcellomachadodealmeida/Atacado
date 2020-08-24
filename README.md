@@ -1,4 +1,4 @@
-Obs importando : todos os arquivos referentes ao banck-End então dentro da pasta Server
+Obs importante : todos os arquivos referentes ao banck-End então dentro da pasta Server
 Os arquivos referente ao FRont-End são os fora da pasta serve
 
 
